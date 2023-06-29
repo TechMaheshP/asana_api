@@ -6,7 +6,7 @@ First you have to create asana account `https://app.asana.com/` and create a bar
 
 I have created `create_project` to create project: 
  
-`AsanaApi.create_project(params)`
+	`AsanaApi.create_project(params)`
 
 #### Request Parameters
 	params = {
