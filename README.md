@@ -28,7 +28,7 @@ I have created `create_project` to create project:
 
 I have created `create_section` to create section: 
 
-`AsanaApi.create_section(project_gid, params)`
+	`AsanaApi.create_section(project_gid, params)`
 
 #### Request Parameters
 	params = {
@@ -44,7 +44,7 @@ I have created `create_section` to create section:
 
 I have created `get_section` to find a section: 
 
-`AsanaApi.get_section(section_gid)`
+	`AsanaApi.get_section(section_gid)`
 
 #### Response
 	{:data=>{"data"=>{"gid"=>"1204894009803251", "created_at"=>"2023-06-23T20:10:26.951Z", "name"=>"Next Section", "project"=>{"gid"=>"1204892377662438", "name"=>"Cross-functional project plan", "resource_type"=>"project"}, "resource_type"=>"section"}}, :message=>"OK", :status_code=>"200"}
@@ -53,7 +53,7 @@ I have created `get_section` to find a section:
 
 I have created `get_workspaces` to get all workspaces: 
 
-`AsanaApi.get_workspaces`
+	`AsanaApi.get_workspaces`
 
 #### Response
 	{:data=>{"data"=>{"gid"=>"1204894009803251", "created_at"=>"2023-06-23T20:10:26.951Z", "name"=>"Next Section", "project"=>{"gid"=>"1204892377662438", "name"=>"Cross-functional project plan", "resource_type"=>"project"}, "resource_type"=>"section"}}, :message=>"OK", :status_code=>"200"}
@@ -63,7 +63,7 @@ I have created `get_workspaces` to get all workspaces:
 
 I have created `create_task` to create task: 
 
-`AsanaApi.create_task(params)`
+	`AsanaApi.create_task(params)`
 
 #### Request Parameters
 	params = {
@@ -82,7 +82,7 @@ I have created `create_task` to create task:
 
 I have created `update_task` to update task: 
 
-`AsanaApi.update_task(task_gid, params)`
+	`AsanaApi.update_task(task_gid, params)`
 
 #### Request Parameters
 	params = {
